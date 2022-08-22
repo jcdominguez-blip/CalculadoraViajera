@@ -1,0 +1,1079 @@
+*{
+  
+  font-family: 'Manrope', sans-serif;
+  
+    
+}
+
+body{
+
+min-height: 100%;
+
+}
+
+#navbarNav{
+
+text-align: right;
+
+
+
+}
+
+
+
+.navjustify-content-end {
+
+font-family: url(/Typography/Manrope-Bold.otf);
+}
+
+.bgmio{
+
+background-color: #212529
+
+
+}
+
+
+.nav{
+
+color: aliceblue;
+
+font-family: url(/Typography/Manrope-Bold.otf);
+
+}
+
+.navlink{
+
+
+
+  display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    
+}
+
+/*---------SCROLLBAR----------*/
+body::-webkit-scrollbar{
+
+width: 7px;
+background: #212529;
+}
+
+body::-webkit-scrollbar-thumb{
+
+background: #48cae4;
+border-radius: 5px;
+
+}
+
+
+/*++++++++++++++++++++++++++
+++++++++++++++++++++++++++ESTILO DE video de presentacion HEADER*/
+
+.header2  {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+/************************Atajos*/
+
+/***************Animación de atajos*/
+
+.animacion{
+
+
+  border-radius: 100px;
+  }
+  
+  .animacion:hover{
+    transform: translate(0%, -10%); 
+    opacity: 0.7;
+    border-radius: 100%;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 100px;
+  }  
+
+
+
+
+.atajos{
+
+font-weight: bold;
+color: #545454;
+font-size: 20px;
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+    /*************************************footer*/
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+.li-footer{
+
+color: #48cae4;
+
+}
+
+.icon{
+
+margin-right: 5%;
+
+}
+
+.btn-mio{
+
+color: #ffffff;
+background-color: #48cae4;
+}
+footer {
+  background: #212529;
+}    
+
+    /* Banner fotos header  
+  -------------------------------------------------- */
+.bannerheader{
+
+object-fit: cover;
+
+
+}
+
+
+
+
+
+  /****************fin footer
+  /***************************  
+
+    /* CARDS DE VISITAS 
+  -------------------------------------------------- */
+  .bd-placeholder-img {
+    
+    background-image: url(https://activated.org/media/images/la-ruta-de-la-felicidad.max-750x450.jpg);
+    background: color(rgba(225,225,225,0),rgba(0,0,0,1));
+    font-size: 1.125rem;
+    object-fit: cover;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    
+  }
+  
+  
+  .bd-placeholder-img1 {
+    
+    background-image: url(https://www.ruta0.com/pix/una-ruta.jpg);
+    background: color(rgba(225,225,225,0),rgba(0,0,0,1));
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .colorbg{
+  background: color(rgba(0,0,0,1));
+
+
+  }
+
+  .h1-1 {
+
+    font-size: 4rem;
+    font-weight:semibold;
+    margin-left: 10px;
+
+    color: #48cae4;
+  
+  
+  }
+
+  h2 {
+
+    font-size: 2rem;
+    font-weight:semibold;
+    
+  
+  }
+  
+  
+  
+  .p1-1 {
+  
+    font-weight: lighter;  
+    color: white;
+    margin-left: 0.5vw;
+    border: none; 
+    width: 40vw;
+    text-align: justify;  
+  
+  
+  }
+  
+  .p1-2 {
+  
+    font-weight: lighter;  
+    color: white;
+    
+    border: none; 
+    
+
+  
+  
+  }
+  
+  .p1-3 {
+  
+    font-weight: lighter;  
+    color: white;
+    
+    border: none; 
+    
+
+  
+  
+  }
+  
+  
+  .p-boton{
+  
+  color: white;
+  
+  
+  
+  }
+  
+  /*+++++++++++++++++
+  ++++++++GALERIA ESTILO*/
+
+  .pg {
+    color:#fff;
+  }
+  
+  .h2g {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:#fff;
+  }
+  
+  @media (max-width:767px) {
+  .h2g {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  .intro pg {
+    margin-bottom:0;
+  }
+  
+  .people {
+    padding:50px 0;
+    cursor: pointer;
+  }
+  .item {
+    margin-bottom:30px;
+  }
+  
+  .item .box {
+    text-align:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:280px;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .item .cover {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.75);
+    transition:opacity 0.15s ease-in;
+    opacity:0;
+    padding-top:80px;
+    color:#48cae4;
+    text-shadow:none;
+  }
+  
+  .item:hover .cover {
+    opacity:1;
+  }
+  
+  .item .name {
+    font-weight:bold;
+    margin-bottom:8px;
+  }
+  
+  .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#ffffff;
+    letter-spacing:2px;
+    font-size:13px;
+    margin-bottom:20px;
+  }
+  
+  .social {
+    font-size:18px;
+  }
+  
+  .social a {
+    color:inherit;
+    margin:0 10px;
+    display:inline-block;
+    opacity:0.7;
+  }
+  .social a:hover {
+    opacity:1;
+  }
+  
+  /*PAGINA EN CONSTRUCCION*/
+.headerc{
+
+background:#48cae4;
+
+}
+
+.h1c{
+
+font-weight: bold;
+padding-left: 1px;
+
+}
+
+.pc{
+  color: white;
+  font-size: medium;
+  font-weight: lighter;
+}
+  .construccion{
+padding-left: 40%;
+margin-top: 10%;
+
+  }
+  
+  /**********************************
+  MEDIA QUERIES
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+  
+/******++++++++++++++ HEADER +++++++++++++
+******************************/
+/*********HEADER
+++++++++++/
+/* Media Query  */
+
+/* imagen instantanea */
+
+@media (pointer: coarse) and (hover: none) {
+  .header2 {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  .header2 video {
+    display: none;
+  }
+}
+
+
+.ml {
+margin-left: 20%;
+}
+.btm-mio {
+
+background: #48cae4;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .responsive {
+  background-image: url(/Img/smarth.png);
+
+  }
+  }
+
+/*fin de video de presentacion*/
+
+/*comienzo de video*/
+
+.mr {
+
+margin-right: 10%;
+
+
+
+}
+
+
+/* This pen */
+
+
+.dark {
+	background: #110f16;
+}
+
+
+.light {
+	background: #f3f5f7;
+}
+
+:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+#pageHeaderTitle {
+	margin: 2rem 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+/* Cards */
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  
+
+  }
+
+	.dark {
+		background-color: #18151f;
+	}
+	.light {
+		background-color: #ffffff;
+	}
+	
+	.t-dark {
+		color: #000000;
+	}
+	
+  a {
+    color: inherit;
+  }
+	
+	.h1 {
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	
+	.small {
+		font-size: 80%;
+	}
+
+  .postcard__title {
+    font-size: 1.75rem;
+  }
+
+  .postcard__img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .postcard__img_link {
+    display: contents;
+  }
+
+  .postcard__bar {
+    width: 50px;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #48cae4;
+    transition: width 0.2s ease;
+  }
+
+  .postcard__text {
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .postcard__preview-txt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+  }
+
+  .postcard__tagbox {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+		padding: 0;
+    justify-content: center;
+  }
+
+    .tag__item {
+      display: inline-block;
+      background: #48cae4;
+      color: #f3f5f7;
+      border-radius: 3px;
+      padding: 2.5px 10px;
+      margin: 0 5px 5px 0;
+      cursor: default;
+      user-select: none;
+      transition: background-color 0.3s;
+  
+  }
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+  .postcard {
+    flex-wrap: inherit;
+  }
+    .postcard__title {
+      font-size: 2rem;
+    }
+
+    .postcard__tagbox {
+      justify-content: start;
+    }
+
+    .postcard__img {
+      max-width: 300px;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .postcard__text {
+      padding: 3rem;
+      width: 100%;
+    }
+
+    .media.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #18151f;
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+/*ajustar*/
+    :hover .postcard__img {
+      transform: scale(1.1);
+    }
+
+
+
+    
+    
+  }
+
+@media screen and (min-width: 1024px){
+		.postcard__text {
+      padding: 2rem 3.5rem;
+    }
+		
+		.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+	
+  
+
+/* COLOR */
+.postcard .postcard__tagbox .green.play:hover {
+	background: main-green;
+	color: black;
+}
+.green .postcard__title:hover {
+	color: main-green;
+}
+.green .postcard__bar {
+	background-color:main-green;
+}
+.green::before {
+	background-image: linear-gradient(
+		-30deg,
+		main-green-rgb-015,
+		transparent 50%
+	);
+}
+.green:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, main-green-rgb-015, transparent 50%);
+}
+
+.postcard .postcard__tagbox .blue.play:hover {
+	background: main-blue;
+}
+.blue .postcard__title:hover {
+	color: main-blue;
+}
+.blue .postcard__bar {
+	background-color: main-blue;
+}
+.blue::before {
+	background-image: linear-gradient(-30deg, main-blue-rgb-015, transparent 50%);
+}
+.blue:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, main-blue-rgb-015, transparent 50%);
+}
+
+.postcard .postcard__tagbox .red.play:hover {
+	background: main-red;
+}
+.red .postcard__title:hover {
+	color: main-red;
+}
+.red .postcard__bar {
+	background-color: main-red;
+}
+.red::before {
+	background-image: linear-gradient(-30deg, main-red-rgb-015, transparent 50%);
+}
+.red:nth-child(2n)::before {
+	background-image: linear-gradient(30deg, main-red-rgb-015, transparent 50%);
+}
+
+.postcard .postcard__tagbox .yellow.play:hover {
+	background: main-yellow;
+	color: black;
+}
+.yellow .postcard__title:hover {
+	color: main-yellow;
+}
+.yellow .postcard__bar {
+	background-color: main-yellow;
+}
+.yellow::before {
+	background-image: linear-gradient(
+		-30deg,
+		main-yellow-rgb-015,
+		transparent 50%
+	);
+}
+.yellow:nth-child(2n)::before {
+	background-image: linear-gradient(
+		30deg,
+		main-yellow-rgb-015,
+		transparent 50%
+	);
+}
+
+@media screen and (min-width: 769px) {
+	.green::before {
+		background-image: linear-gradient(
+			-80deg,
+			main-green-rgb-015,
+			transparent 50%
+		);
+	}
+	.green:nth-child(2n)::before {
+		background-image: linear-gradient(
+			80deg,
+			main-green-rgb-015,
+			transparent 50%
+		);
+	}
+
+	.blue::before {
+		background-image: linear-gradient(
+			-80deg,
+			main-blue-rgb-015,
+			transparent 50%
+		);
+	}
+	.blue:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, main-blue-rgb-015, transparent 50%);
+	}
+
+	.red::before {
+		background-image: linear-gradient(-80deg, main-red-rgb-015, transparent 50%);
+	}
+	.red:nth-child(2n)::before {
+		background-image: linear-gradient(80deg, main-red-rgb-015, transparent 50%);
+	}
+
+
+		
+	}
+	.yellow:nth-child(2n)::before {
+		background-image: linear-gradient(
+		80deg,);					
+		}
+    /* RESPONSIVE CSS
+  -------------------------------------------------- */  
+  @media(min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  /*Header de guias*/
+
+  .bg-cover {
+    background-size: cover;
+}
+
+
+
+
+/*
+*
+* ==========================================
+estilos Nav 
+* ==========================================
+*
+*
+/***************GALERIA DESPEUS DEL HEADER
++++++++++++++++++++++++++++++++++++++++++*/
+  @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+          padding-bottom: 10%;
+        }
+          .espe{
+        justify-content: center;
+        text-align: center;
+            
+        }
+      }
+
+.bg-mio{
+
+background-color: #48cae4;
+
+}
+
+/*mapa responsive*/
+
+@media (max-width:768px) {
+
+
+.mapa {
+
+  
+  width: 100%;
+  height: 400;
+
+}
+}
+/*galeria de fotos guia*/
+
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*+++++++++++++++FOOTER
+******************************/
+
+
+
+@media (max-width:575px){
+
+  .footer{
+    position: relative;
+    bottom: 0px;
+    background-color: #212529;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+  .icon{
+
+    margin-right: 5%;
+    
+    }
+    
+    .btn-mio{
+    
+    color: #ffffff;
+    background-color: #48cae4;
+
+    }
+
+  }
+}
+/*Notificaicon css*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background: hsl(0, 0%, 100%);
+  font-family: "Noto Sans JP", sans-serif;
+}
+/* display the wrapping container in the top right corner of the viewport */
+.notification {
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+  /* align the content to the rigth */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: hsl(0, 0%, 20%);
+  /* hide the overflow to conceal the message when translated to the right of the container */
+  overflow-x: hidden;
+  /* padding to avoid cropping the box-shadow on the message */
+  padding: 0.25rem;
+}
+
+/* reduce the size of the icon and give a white fill to the elements of the graphic */
+.notification__bell {
+  display: block;
+  width: 48px;
+  height: auto;
+  fill: hsl(0, 0%, 100%);
+}
+/* when the .notification container is given a class of .received animate the body and clapper of the bell to swing
+! animate the clapper with a slight delay as to follow through the animation of the main body
+*/
+.notification.received .bell__body {
+  animation: swingBody 0.7s 0.02s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.notification.received .bell__clapper {
+  animation: swingClapper 0.7s 0.04s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+/* ! for both elements the rotation occurs using the parent group element as a hinge, allowing for the pendulum-like swing */
+@keyframes swingBody {
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+/* animation for the clapper, following the main body and with a larger rotation */
+@keyframes swingClapper {
+  5% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  80% {
+    transform: rotate(8deg);
+  }
+}
+
+/* style the content of the message to show a grid with the dismiss button in the top right corner
+|h1  |  button |
+|p   |p        |
+*/
+.notification__message {
+  display: grid;
+  grid-gap: 0.2rem;
+  grid-template-columns: 1fr auto;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  /* style the div as a rounded rectangle with a border on the left segment */
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.1), 0 2px 3px hsla(0, 0%, 0%, 0.1);
+  border-left: 0.5rem solid hsl(0, 0%, 100%);
+  /* by default hide the element from sight and include a transition for the chosen properties */
+  transform: translateX(100%);
+  opacity: 0;
+  visibility: hidden;
+  transition-property: transform, opacity, visibility;
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.notification__message h1 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.notification__message p {
+  max-width: 320px;
+  font-size: 0.8rem;
+  grid-column: 1/-1;
+}
+.notification__message button {
+  background: none;
+  border: none;
+  color: inherit;
+  width: 20px;
+  height: 20px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: center;
+}
+.notification__message button svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* when the .notification container has a class of .received transition the message into view */
+.notification.received .notification__message {
+  transform: translateX(0%);
+  opacity: 1;
+  visibility: visible;
+}
+/* change the border color according to the different modifiers
+! for each modifier specify also an svg icon in the background, to highlight the message
+*/
+.message--info {
+  border-left-color: #90dee9;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle stroke="none" fill="%2390dee9" cx="50" cy="22" r="8"></circle><path fill="none" stroke="%2390dee9" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" d="M 45 40 h 5 v 40 h -5 h 10"></path></svg>'),
+    hsl(0, 0%, 100%);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 100% 100%;
+}
+.message--success {
+  border-left-color: hsl(120, 67%, 74%);
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%2390e990" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" d="M 20 52 l 25 25 l 30 -50"></path></svg>'),
+    hsl(0, 0%, 100%);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 100% 100%;
+}
+.message--warning {
+  border-left-color: hsl(54, 67%, 74%);
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23e9e090" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" d="M 50 18 v 40"></path><circle stroke="none" fill="%23e9e090" cx="50" cy="78" r="8"></circle></svg>'),
+    hsl(0, 0%, 100%);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 100% 100%;
+}
+.message--danger {
+  border-left-color: hsl(0, 67%, 74%);
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g transform="translate(50 50) rotate(45)"><path fill="none" stroke="%23e99090" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" d="M 0 -30 v 60 z M -30 0 h 60"></path></g></svg>'),
+    hsl(0, 0%, 100%);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 100% 100%;
+}
+
+#brand-logo{
+
+
+  padding: 120px;
+}
+

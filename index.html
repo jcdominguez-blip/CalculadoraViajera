@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------link Iconos-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/a0cd7185c4.js" crossorigin="anonymous"></script>
+<!--estilos propios-->
+<link rel="stylesheet" href="./css/estilosboops.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper grey darken-4">
+      <a href="#!" id="brand-logo"><img src="./img/vdr.png" alt="" width="80px"></a>
+    </div>
+  </nav>
+
+    <div class="modal modal-signin position-static d-block bg-info py-5" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow bg-black">
+            <div class="center-align">
+              <img src="./img/vdr.png" alt="" width="80px">
+              </div>
+            <div class="modal-header p-5 pb-4  border-bottom-0">             
+              <h2 class="fw-bold mb-0 text-white">Registrate gratis</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form id="idform">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-3" id="email1" placeholder="name@example.com" required>
+                  <label for="floatingInput text-white">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="contraseña" placeholder="Password" required>
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-info text-white" value="iniciar sesion" type="submit" id="registro1">Sign up</button>
+                <p class="warning" id="warnings"></p>
+                <small class="text-white">By clicking Sign up, you agree to the terms of use.</small>
+                <hr class="my-4">
+                <h2 class="fs-5 fw-bold text-white mb-3">Or use a third-party</h2>
+                <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3 text-white" id="Twitter1" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                  Sign up with Twitter
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                  Sign up with Facebook
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                  Sign up with GitHub
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--Footer-->
+
+<!----Footer -->
+<footer class="page-footer grey darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l4 s12">
+        <h5 class="white-text">Help Materialize Grow</h5>
+        <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis similique illum fugiat officiis ipsa ullam ducimus, quibusdam assumenda beatae, excepturi amet consequatur possimus molestiae atque aperiam vitae quasi accusamus..</p>
+        <a class="btn waves-effect waves-light cyan accent-2 black-text" href="/support-us.html">Support Us</a>
+      </div>
+      <div class="col l4 s12">
+        <h5 class="white-text">Join the Discussion</h5>
+        <p class="grey-text text-lighten-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor earum iure vero. Facere dolorem voluptate maxime provident. Expedita unde odit laborum! Doloribus asperiores aspernatur perspiciatis soluta, veniam repellendus eum sunt?</p>
+        <a class="btn waves-effect waves-light cyan accent-2 black-text" target="_blank" href="https://gitter.im/Dogfalo/materialize">Chat</a>
+      </div>
+      <div class="col l4 s12" style="overflow: hidden;">
+        <h5 class="white-text">Connect</h5>
+        <iframe src="https://ghbtns.com/github-btn.html?user=dogfalo&repo=materialize&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+        <br>
+        <a href="https://twitter.com/MaterializeCSS" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @MaterializeCSS</a>
+        <br>
+        <div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/108619793845925798422" data-rel="publisher"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014-2017 Vientos de Ruta, All rights reserved.
+    
+    </div>  
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="javascrip.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+</body>
+</html>
